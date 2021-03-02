@@ -47,12 +47,13 @@ nav a:hover{
 }
 /*header*/
 .header{
+  display: flex;
   background-image: url("images/headerpic.jpg");
   width: 100%;
   background-size: cover;
   height: 250px;
   object-fit: cover;
-  text-align: center;
+  justify-content: center;
   margin: 0px;
 }
 .header h1{
